@@ -1,7 +1,8 @@
 import java.util.HashMap;
 
 /**
- * Difficulty: Medium
+ * Longest Substring with maximum K Distinct Characters (medium)
+ *
  * Given a string, find the length of the longest substring in it with no more than K distinct characters.
  */
 class LongestSubstringKDistinct {
