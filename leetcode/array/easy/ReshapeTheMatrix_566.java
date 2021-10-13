@@ -1,3 +1,5 @@
+package array.easy;
+
 /**
  * 566. Reshape the Matrix
  *
@@ -9,7 +11,7 @@
  *
  * If the reshape operation with given parameters is possible and legal, output the new reshaped matrix; Otherwise, output the original matrix.
  */
-class Solution {
+class ReshapeTheMatrix_566 {
     /**
      * Time complexity O(m * n), where m and n refer to the number of rows and columns of the given matrix respectively
      * Space complexity O(m * n), where m and n refer to the number of rows and columns of the given matrix respectively
