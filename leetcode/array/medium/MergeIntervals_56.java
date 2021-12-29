@@ -1,6 +1,7 @@
 package array.medium;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 /**
  * 56. Merge Intervals
@@ -14,7 +15,7 @@ public class MergeIntervals_56 {
      * Space complexity O(n)
      */
     public int[][] merge(int[][] intervals) {
-        Arrays.sort(intervals, (x, y) -> x[0] - y[0]);
+        Arrays.sort(intervals, Comparator.comparingInt(x -> x[0]));
         int startValue = intervals[0][0];
         int endValue = intervals[0][1];
         int currentIndex = 0; // where to store the new information, so that no new array is created
